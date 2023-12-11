@@ -4,21 +4,25 @@
 // 2. Укажите в явной тип массивов
 // 3. Заполните данные
 
-const friends = [];
-const ages = [];
-const hasCar = [];
+const friends: string[] = [ "Lee", "Jane", "Ann"];
+const ages: number[] = [ 22, 24, 26];
+const hasCar: boolean[] = [true, true, false];
 
 // 4. Добавьте в каждый из массивов информацию
 // о вашем четвертом друге
 
+friends.push("Ron")
+ages.push(27)
+hasCar.push(false)
+
 // 5. Раскомментируйте строки ниже исправьте их
 // таким образом чтобы не возникало ошибок
 
-// friends.push("Ваня");
-// ages.push('22')
-// hasCar.push('toyota');
+friends.push("Ваня");
+ages.push(22)
+hasCar.push(true);
 
 // 6. Создайте кортеж массивов, перенесите данные
 // о ваши друзьях в него
 
-const friendsData = [];
+const friendsData = [...friends, ...ages, ...hasCar];

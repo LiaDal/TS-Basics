@@ -2,13 +2,16 @@
 // первого урока. На их основе создайте
 // интерфейс IUser.
 
-let firstName;
-let lastName;
-let sex;
-let age;
-let hometown;
-let isMarried;
-let hasPets;
+interface IUser {
+    firstName: string;
+    lastName: string;
+    sex: string;
+    age: number;
+    hometown: string;
+    isMarried: boolean;
+    hasPets: boolean;
+}
+
 
 // 2. Не меняя написанный вами интерфейс
 // IUser, добавьте в него опциональную

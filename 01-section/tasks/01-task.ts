@@ -7,3 +7,13 @@
 // 3. Присвойте каждой переменной значение
 // соответствующее лично вам
 // 4. Выведите данные в консоль
+
+let firstName: string = 'John';
+let lastName: string = 'Doe';
+let gender: string = 'man';
+let age: number = 25;
+let hometown: string = 'London';
+let isMarried: boolean = true;
+let postcode: number = 123456;
+
+console.log(firstName, lastName, gender, age, hometown, isMarried, postcode)
