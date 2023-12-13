@@ -15,10 +15,6 @@ interface IShop {
   // удаляет указанные свойства и IShopListItem2
   // - используя утилиту, которая удаляет все
   // свойства, кроме указанных.
-  
-  type IShopListItem = {
-    id: IShop["id"];
-    name: IShop["name"];
-    address: IShop["address"];
-  };
+  type IShopListItem1 = Omit<IShop, 'id' | 'name' | 'address'>;
+  type IShopListItem2 = Pick<IShop, 'id' | 'name' | 'address'>
   

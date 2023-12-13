@@ -1,6 +1,6 @@
-let tasks;
-let month;
-let results;
+let tasks: any;
+let month: any;
+let results: any;
 
 // Определите в явном виде тип переменных таким образом,
 // чтобы код ниже работал корректно

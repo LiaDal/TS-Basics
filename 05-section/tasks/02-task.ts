@@ -16,6 +16,8 @@ interface IRoom {
     hasPlants: boolean;
     stoveType: stoveType;
   }
+
+  type KitchenDataType = Exclude<IRoom, IKitchen>;
   
   // Выше приведены два интерфейса IRoom - тип комнаты
   // и IKitchen - тип кухни. Не внося изменений в эти

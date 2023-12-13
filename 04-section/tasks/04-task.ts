@@ -13,9 +13,9 @@ interface IUser {
   // совпадают. Укажите типы полей. 
   
   interface IRatingUserItem {
-    position:
-    login:
-    rating: 
+    position: number;
+    login: string;
+    rating: number;
   }
   
   

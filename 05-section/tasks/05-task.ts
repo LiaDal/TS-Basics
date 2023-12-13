@@ -13,4 +13,6 @@ interface IPlaceData {
   // тип PlaceAddressType, в котором будут
   // поля country, city, address. При этом
   // поля должны быть обязательны к заполнению.
+
+  type PlaceAddressType = Required<Pick<IPlaceData, 'country' | 'city' | 'address'>>
   

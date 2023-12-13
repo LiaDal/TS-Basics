@@ -1,6 +1,6 @@
 interface IUserData {
     firstName: string;
-    lastName: string;
+    lastName?: string;
     age: number;
     hometown: string;
   }
